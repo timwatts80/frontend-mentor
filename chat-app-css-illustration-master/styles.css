@@ -1,19 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap');
 
 - Mobile: 375px
 - Desktop: 1440px
 
-## Colors
+/* Colors */
 
-### Primary
+/* Primary */
 
-#### Text
+/* Text */
 
-- Pale Violet (sub-heading at the top of the app UI): hsl(276, 100%, 81%)
-- Moderate Violet (chat on the left): hsl(276, 55%, 52%)
-- Desaturated Dark Violet (chat on the right): hsl(271, 15%, 43%)
-- Grayish Blue (placeholder text): hsl(206, 6%, 79%)
-- Very Dark Desaturated Violet (main heading): hsl(271, 36%, 24%)
-- Dark Grayish Violet (paragraph): hsl(270, 7%, 64%)
+.pale-violet { color: hsl(276, 100%, 81%); } /* (sub-heading at the top of the app UI) */
+.moderate-violet { hsl(276, 55%, 52%); } /* (chat on the left) */
+.desaturated-dark-violet { hsl(271, 15%, 43%); } /* (chat on the right) */
+.grayish-blue { hsl(206, 6%, 79%); } /* (placeholder text) */
+.very-dark-desaturated-violet { hsl(271, 36%, 24%); } /* (main heading) */
+.dark-grayish-violet { hsl(270, 7%, 64%); } /* (paragraph) */
 
 #### Gradients
 
