@@ -45,10 +45,22 @@
 
 body {
   box-sizing: var(--body-box-sizing);
-  margin: var(--body-margin);
+  margin: 0px;
+  height: 100vh;
+  width: 100vw;
   padding: var(--body-padding);
   font-family: var(--body-font-family);
   font-size: var(--body-font-size);
+}
+
+#page-background {
+    background-color: var(--white);
+}
+
+.page-background-shape {
+    background-color: red;
+    height: 600px;
+    width: 300px;
 }
 
 .pale-violet {
