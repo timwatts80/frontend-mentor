@@ -98,50 +98,6 @@ p {
     line-height: 1.8;
 }
 
-.pale-violet {
-    color: var(--pale-violet);
-}
-
-.moderate-violet {
-    color: var(--moderate-violet);
-}
-
-.desaturated-dark-violet {
-    color: var(--desaturated-dark-violet);
-}
-
-.grayish-blue {
-    color: var(--grayish-blue);
-}
-
-.very-dark-desaturated-violet {
-    color: var(--very-dark-desaturated-violet);
-}
-
-.dark-grayish-violet {
-    color: var(--dark-grayish-violet);
-}
-
-.background-gradient {
-    background: var(--background-gradient);
-}
-
-.white {
-    color: var(--white);
-}
-
-.light-grayish-violet {
-    color: var(--light-grayish-violet);
-}
-
-.very-dark-desaturated-violet-secondary {
-    color: var(--very-dark-desaturated-violet-secondary);
-}
-
-.very-light-magenta {
-    color: var(--very-light-magenta);
-}
-
 .icon::before {
     display: inline-block;
     text-rendering: auto;
