@@ -1,55 +1,114 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="stylesheet" href="./styles.css">
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
+
+  <script src="https://kit.fontawesome.com/e0a12ed08d.js" crossorigin="anonymous"></script>
+
   <title>Frontend Mentor | [Challenge Name Here]</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-   
-  </style>
   <style>
     @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap');
   </style>
 </head>
+
 <body>
-  <div id="page-background">
-    <div class="page-background-shape"></div>
+  <div class="page-background">
+    <div class="page-background-shape" id="background-shape-1"></div>
+    <div class="page-background-shape" id="background-shape-2"></div>
   </div>
-  Samuel Green
-  Available to Walk
+  <div id="page-wrapper">
+    <div class="content-wrapper">
+      <div class="col-6" style="align-items: flex-end;">
+        <phone>
+          <div class="phone-inner-wrapper">
+            <div class="notch"></div>
+            <div class="phone-header">
+              <span><i class="fa-solid fa-chevron-left"
+                  style="width: auto; transform: scale(.35, .6); -webkit-text-stroke: 3px white;"></i></span>
+              <span>
+                <avatar
+                  style="display: block; background: white url('images/avatar.jpg') center center/contain; width: 22px; height: 22px; border: .1rem solid white; border-radius: 50%;">
+                </avatar>
+              </span>
+              <span style="flex: 1 1 auto;">
+                <header style="display: flex; flex-direction: column;">
+                  <h3>Samuel Green</h3>
+                  <h4>Available to Walk</h4>
+                </header>
+              </span>
+              <span style="display: flex; align-items: center; flex-direction: row; padding-right: 4px;">
+                <i class="fa-solid fa-ellipsis-vertical" style="font-size: .65rem;"></i>
+              </span>
+            </div>
+            <div class="phone-content">
+              <div class="left">
+                <div class="message">
+                  That sounds great. I’d be happy with that.
+                </div>
+                <div class="message">
+                  Could you send over some pictures of your dog, please?
+                </div>
+              </div>
+              <div class="right">
+                <div class="dog_images">
+                  <img src="images/dog-image-1.jpg" alt="dog1">
+                  <img src="images/dog-image-2.jpg" alt="dog2">
+                  <img src="images/dog-image-3.jpg" alt="dog3">
+                </div>
+                <div class="message">
+                  Here are a few pictures. She’s a happy girl!
+                </div>
+                <div class="message">
+                  Can you make it?
+                </div>
+              </div>
+              <div class="left">
+                <div class="message">
+                  She looks so happy! The time we discussed works. How long shall I take her out for?
+                </div>
+              </div>
+              <div class="left" style="margin-bottom: .5rem;">
+                <div class="price-option">
+                  <input type="radio" name="price" id="30min" value="30min" style="margin: 0; padding: 0;">
+                  <span class="price-option-desc">30 minute walk</span>
+                  <span class="price-option-price">$29</span>
+                </div>
+                <div class="price-option">
+                  <input type="radio" name="price" id="30min" value="30min" style="margin: 0; padding: 0;">
+                  <span class="price-option-desc">1 hour walk</span>
+                  <span class="price-option-price">$49</span>
+                </div>
+              </div>
+              <div class="chat-input">
+                <input type="text" name="message" id="message" placeholder="Type a message...">
+              </div>
+            </div>
+        </phone>
+      </div>
+    </div>
+    <div class="col-6">
+      <div class="content">
+        <h1>Simple booking</h1>
 
-  That sounds great. I’d be happy with that.
-
-  Could you send over some pictures of your dog, please?
-
-  Here are a few pictures. She’s a happy girl!
-
-  Can you make it?
-
-  She looks so happy! The time we discussed works. How long shall I take her out for?
-
-  30 minute walk
-  $29
-
-  1 hour walk
-  $49
-
-  Type a message…
-
-  Simple booking
-
-  Stay in touch with our dog walkers through the chat interface. This makes it easy to 
-  discuss arrangements and make bookings. Once the walk has been completed you can rate 
-  your walker and book again all through the chat.
-  
+        <p>Stay in touch with our dog walkers through the chat interface. This makes it easy to
+          discuss arrangements and make bookings. Once the walk has been completed you can rate
+          your walker and book again all through the chat.</p>
+      </div>
+    </div>
+  </div>
   <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
     Coded by <a href="#">Your Name Here</a>.
   </div>
+  </div>
 </body>
+
 </html>
